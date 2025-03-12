@@ -1,0 +1,21 @@
+{
+  "name": "overlay-experiments",
+  "version": "0.0.0",
+  "description": "Experiments with Overlay Tools",
+  "homepage": "https://github.com/ralfhandl/overlay-experiments#readme",
+  "bugs": {
+    "url": "https://github.com/ralfhandl/overlay-experiments/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralfhandl/overlay-experiments.git"
+  },
+  "author": "@ralfhandl",
+  "type": "commonjs",
+  "scripts": {
+    "build": "bash build.sh"
+  },
+  "dependencies": {
+    "bump-cli": "^2.9.2"
+  }
+}
