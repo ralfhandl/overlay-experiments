@@ -1,7 +1,16 @@
-echo bump
-npx bump overlay examples/array-update-input.json examples/array-update-overlay.json 
-echo
+for overlay in examples/*-overlay.*; do
+  extension="${overlay##*.}"
+  filestem="${overlay%-*}"
+  input="${filestem}-input.${extension}"
 
-echo speakeasy
-speakeasy overlay apply -s examples/array-update-input.json -o examples/array-update-overlay.json 
-echo
+  echo "Applying overlay: $overlay"
+  echo "--- bump ---"
+  npx bump overlay "$input" "$overlay"
+  echo "------------"
+
+  echo "--- speakeasy ---"
+  speakeasy overlay apply -s "$input" -o "$overlay"
+  echo "-----------------"
+  
+  echo
+done
