@@ -5,6 +5,7 @@ info:
 paths:
   /items:
     get:
+      # expectation: add parameters top and skip
       x-oai-traits:
         - paged
       responses:
