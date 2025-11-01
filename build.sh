@@ -5,11 +5,11 @@ for overlay in examples/*-overlay.*; do
 
   echo "Applying overlay: $overlay"
   echo "--- bump ---"
-  npx bump overlay "$input" "$overlay"
+  npx bump overlay "$input" "$overlay" > "${filestem}-result-bump.${extension}"
   echo "------------"
 
   echo "--- speakeasy ---"
-  speakeasy overlay apply -s "$input" -o "$overlay"
+  speakeasy overlay apply --logLevel error -s "$input" --overlay "$overlay" --out "${filestem}-result-speakeasy.${extension}"
   echo "-----------------"
   
   echo
