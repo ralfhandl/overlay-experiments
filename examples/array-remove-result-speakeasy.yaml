@@ -5,6 +5,9 @@ info:
 paths:
   /items:
     get:
+      tags:
+        - good
+        - ugly
       parameters:
         - name: filter
           in: query

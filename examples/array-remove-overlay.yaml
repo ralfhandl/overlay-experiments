@@ -5,3 +5,5 @@ info:
 actions:
   - target: $.paths.*.get.parameters[?(@.name == 'dummy')]
     remove: true
+  - target: $.paths.*.get.tags[?(@ == 'bad')]
+    remove: true
