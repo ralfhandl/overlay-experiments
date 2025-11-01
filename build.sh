@@ -9,7 +9,7 @@ for overlay in examples/*-overlay.*; do
   echo "------------"
 
   echo "--- speakeasy ---"
-  speakeasy overlay apply --logLevel error -s "$input" --overlay "$overlay" --out "${filestem}-result-speakeasy.${extension}"
+  speakeasy overlay apply -s "$input" --overlay "$overlay" --out "${filestem}-result-speakeasy.${extension}"
   echo "-----------------"
   
   echo
