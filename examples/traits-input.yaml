@@ -10,6 +10,17 @@ paths:
       responses:
         200:
           description: OK
+  /items/{id}/subitems:
+    get:
+      # expectation: add parameters top and skip after existing parameter id
+      x-oai-traits: ["paged"]
+      parameters:
+        - name: id
+          in: path
+          required: true
+      responses:
+        200:
+          description: OK
   /other:
     get:
       responses:
