@@ -7,7 +7,7 @@ paths:
     get:
       tags:
         - good
-        - ugly
+        - ok
       parameters:
         - name: filter
           in: query
