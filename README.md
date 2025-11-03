@@ -31,4 +31,4 @@ Apply example overlays to example inputs with
 
 ## Playing Around
 
-Script `npm run build` will loop over all `*-overlay.json` and `*-overlay.yaml` files in the `examples` folder and use both tools to apply the overlay to the corresponding `*-input.json` or `*-input.yaml` file. Overlay and input must have the same file extension.
+Script `npm run build` will loop over all `*-overlay.json` and `*-overlay.yaml` files in the `examples` folder and use all tools to apply the overlay to the corresponding `*-input.json` or `*-input.yaml` file. Overlay and input must have the same file extension.
