@@ -15,6 +15,7 @@ Apply example overlays to example inputs with
 | ---------------------- | :-----------: | :--: | :--: | :-------: | :------------: | :-------: |
 | array-remove           |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 | array-update           |      ✔️       |  ✔️  |  ❌  |    ✔️     |       ✔️       |    ✔️     |
+| array-update-w-obj     |      ✔️       |  ❌  |  ❌  |    ✔️     |       ❌       |    ❌     |
 | overlay-issue-38       |      ✔️       |  ✔️  |  ❌  |    ❌     |       ❌       |    ✔️     |
 | primitive-array-update |      ✔️       |  ✔️  |  ✔️  |    ❌     |       ✔️       |    ✔️     |
 | primitive-update       |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ❌       |    ✔️     |
