@@ -4,6 +4,11 @@ for overlay in examples/*-overlay.*; do
   input="${filestem}-input.${extension}"
 
   echo "Applying overlay: $overlay"
+
+  echo "--- Apigee Go Gen OAS Overlay ---"
+  apigee-go-gen transform oas-overlay --spec "$input" --overlay "$overlay" --output "${filestem}-result-apigee.${extension}"
+  echo "---------------------------------"
+
   echo "--- bump ---"
   npx bump overlay "$input" "$overlay" > "${filestem}-result-bump.${extension}"
   echo "------------"
