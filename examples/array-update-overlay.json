@@ -1,7 +1,7 @@
 {
   "overlay": "1.0.0",
   "info": {
-    "title": "Append to array",
+    "title": "Concatenate arrays",
     "version": "0.0.0"
   },
   "actions": [
