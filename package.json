@@ -16,6 +16,7 @@
     "build": "bash build.sh"
   },
   "dependencies": {
-    "bump-cli": "^2.9.8"
+    "bump-cli": "^2.9.8",
+    "openapi-format": "^1.29.0"
   }
 }

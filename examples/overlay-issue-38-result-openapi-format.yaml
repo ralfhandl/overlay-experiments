@@ -1,0 +1,22 @@
+openapi: 3.1.2
+info:
+  title: 'Input similar to https://github.com/OAI/Overlay-Specification/issues/38'
+  version: 1.0.0
+paths:
+  /foo:
+    get:
+      description: search for foo resources
+      parameters:
+        - name: q
+          in: query
+          type: string
+          required: true
+      responses:
+        '200':
+          schema:
+            type: object
+            properties:
+              FooItems:
+                type: array
+                items:
+                  $ref: '#/definitions/FooItem'

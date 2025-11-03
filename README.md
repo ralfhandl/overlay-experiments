@@ -1,6 +1,20 @@
 # Overlay Experiments
 
-Apply example overlays to example inputs with both [bump-cli](https://www.npmjs.com/package/bump-cli#the-overlay-command) and [speakeasy](https://www.speakeasy.com/docs/speakeasy-reference/cli/overlay).
+Apply example overlays to example inputs with
+
+- [bump-cli](https://www.npmjs.com/package/bump-cli#the-overlay-command)
+- [openapi-format](https://github.com/thim81/openapi-format)
+- [speakeasy](https://www.speakeasy.com/docs/speakeasy-reference/cli/overlay).
+
+## Results
+
+| Example \ Tool   |        bump        |   openapi-format   |     speakeasy      |
+| ---------------- | :----------------: | :----------------: | :----------------: |
+| array-remove     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| array-update     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| overlay-issue-38 | :heavy_check_mark: |        :x:         | :heavy_check_mark: |
+| primitive-update | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| traits           | :heavy_check_mark: |        :x:         | :heavy_check_mark: |
 
 ## Installation
 

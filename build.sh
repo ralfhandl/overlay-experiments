@@ -12,5 +12,9 @@ for overlay in examples/*-overlay.*; do
   speakeasy overlay apply -s "$input" --overlay "$overlay" --out "${filestem}-result-speakeasy.${extension}"
   echo "-----------------"
   
+  echo "--- openapi-format ---"
+  npx openapi-format "$input" --no-sort --overlayFile "$overlay" --output "${filestem}-result-openapi-format.${extension}"
+  echo "----------------------"
+
   echo
 done

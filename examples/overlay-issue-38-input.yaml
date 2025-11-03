@@ -1,6 +1,6 @@
 openapi: 3.1.2
 info:
-  title: "Input similar to [adsa](https://github.com/OAI/Overlay-Specification/issues/38)"
+  title: "Input similar to https://github.com/OAI/Overlay-Specification/issues/38"
   version: 1.0.0
 # traits:
 #   pagable:
