@@ -7,5 +7,3 @@ actions:
     remove: true
   - target: $.paths.*.get.tags[?(@ == 'bad')]
     remove: true
-  - target: $.paths.*.get.tags[?(@ == 'ugly')]
-    update: ok

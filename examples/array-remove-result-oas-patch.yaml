@@ -6,12 +6,11 @@ paths:
   /items:
     get:
       tags:
-        - good
-        - ugly
+      - good
+      - ugly
       parameters:
-        - name: filter
-          in: query
+      - name: filter
+        in: query
       responses:
-        '200':
+        200:
           description: OK
-
