@@ -20,3 +20,5 @@ paths:
                 type: array
                 items:
                   $ref: '#/definitions/FooItem'
+              metadata:
+                $ref: '#/definitions/MetadataFragment'

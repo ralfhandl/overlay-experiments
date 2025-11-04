@@ -20,10 +20,10 @@ Apply example overlays to example inputs with
 | object-update              |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 | object-update-w-array-prop |      ✔️       |  ✔️  |  ❌  |    ✔️     |       ✔️       |    ✔️     |
 | object-update-w-condition  |      ✔️       |  ✔️  |  ✔️  |    ❌     |       ✔️       |    ✔️     |
-| overlay-issue-38           |      ✔️       |  ✔️  |  ❌  |    ❌     |       ❌       |    ✔️     |
+| overlay-issue-38           |      ❌       |  ❌  |  ❌  |    ✔️     |       ❌       |    ❌     |
 | primitive-array-update     |      ✔️       |  ✔️  |  ✔️  |    ❌     |       ✔️       |    ✔️     |
 | primitive-update           |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ❌       |    ✔️     |
-| traits                     |      ✔️       |  ✔️  |  ❌  |    ❌     |       ❌       |    ✔️     |
+| traits                     |      ❌       |  ❌  |  ❌  |    ✔️     |       ❌       |    ❌     |
 
 ## Installation
 

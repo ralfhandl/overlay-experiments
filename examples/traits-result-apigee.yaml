@@ -11,13 +11,6 @@ paths:
       responses:
         200:
           description: OK
-      parameters:
-        - name: top
-          in: query
-          # ...
-        - name: skip
-          in: query
-          # ...
   /items/{id}/subitems:
     get:
       # expectation: add parameters top and skip after existing parameter id
@@ -27,12 +20,6 @@ paths:
         - name: id
           in: path
           required: true
-        - name: top
-          in: query
-          # ...
-        - name: skip
-          in: query
-          # ...
       responses:
         200:
           description: OK

@@ -34,16 +34,6 @@ paths:
           in: query
           type: string
           required: true
-        - name: pageSize
-          in: query
-          type: number
-          required: false
-          default: 10
-        - name: pageNumber
-          in: query
-          type: number
-          required: false
-          default: 1
       responses:
         '200':
           schema:
@@ -53,8 +43,4 @@ paths:
                 type: array
                 items:
                   $ref: '#/definitions/FooItem'
-              pagination:
-                $ref: '#/definitions/PaginationFragment'
-              metadata:
-                $ref: '#/definitions/MetadataFragment'
 
