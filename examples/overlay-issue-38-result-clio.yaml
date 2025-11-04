@@ -6,8 +6,6 @@ paths:
   /foo:
     get:
       description: search for foo resources
-      x-is:
-        - pagable
       parameters:
         - name: q
           in: query
