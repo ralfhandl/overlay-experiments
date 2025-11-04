@@ -11,15 +11,18 @@ Apply example overlays to example inputs with
 
 ## Results
 
-| Example \ Tool         | apigee-go-gen | bump | clio | oas-patch | openapi-format | speakeasy |
-| ---------------------- | :-----------: | :--: | :--: | :-------: | :------------: | :-------: |
-| array-remove           |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
-| array-update           |      ✔️       |  ✔️  |  ❌  |    ✔️     |       ✔️       |    ✔️     |
-| array-update-w-obj     |      ✔️       |  ❌  |  ❌  |    ✔️     |       ❌       |    ❌     |
-| overlay-issue-38       |      ✔️       |  ✔️  |  ❌  |    ❌     |       ❌       |    ✔️     |
-| primitive-array-update |      ✔️       |  ✔️  |  ✔️  |    ❌     |       ✔️       |    ✔️     |
-| primitive-update       |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ❌       |    ✔️     |
-| traits                 |      ✔️       |  ✔️  |  ❌  |    ❌     |       ❌       |    ✔️     |
+| Example \ Tool               | apigee-go-gen | bump | clio | oas-patch | openapi-format | speakeasy |
+| ---------------------------- | :-----------: | :--: | :--: | :-------: | :------------: | :-------: |
+| array-remove                 |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| array-update                 |      ✔️       |  ✔️  |  ❌  |    ✔️     |       ✔️       |    ✔️     |
+| array-update-w-obj           |      ✔️       |  ❌  |  ❌  |    ✔️     |       ❌       |    ❌     |
+| object-remove-property       |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| object-update-array-property |      ✔️       |  ✔️  |  ❌  |    ✔️     |       ✔️       |    ✔️     |
+| object-update                |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| overlay-issue-38             |      ✔️       |  ✔️  |  ❌  |    ❌     |       ❌       |    ✔️     |
+| primitive-array-update       |      ✔️       |  ✔️  |  ✔️  |    ❌     |       ✔️       |    ✔️     |
+| primitive-update             |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ❌       |    ✔️     |
+| traits                       |      ✔️       |  ✔️  |  ❌  |    ❌     |       ❌       |    ✔️     |
 
 ## Installation
 

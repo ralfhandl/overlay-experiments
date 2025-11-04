@@ -1,9 +1,12 @@
-for overlay in examples/*-overlay.*; do
+overlays=$(find examples -name '*overlay.*')
+for overlay in $overlays; do
   extension="${overlay##*.}"
   filestem="${overlay%-*}"
   input="${filestem}-input.${extension}"
 
+  echo "***************************************************************"
   echo "Applying overlay: $overlay"
+  echo "***************************************************************"
 
   echo "--- Apigee Go Gen OAS Overlay ---"
   apigee-go-gen transform oas-overlay --spec "$input" --overlay "$overlay" --output "${filestem}-result-apigee.${extension}"
