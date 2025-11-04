@@ -23,7 +23,7 @@ Apply example overlays to example inputs with
 | overlay-issue-38           |      ❌       |  ❌  |  ❌  |    ✔️     |       ❌       |    ❌     |
 | primitive-array-update     |      ✔️       |  ✔️  |  ✔️  |    ❌     |       ✔️       |    ✔️     |
 | primitive-update           |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ❌       |    ✔️     |
-| traits                     |      ✔️       |  ✔️  |  ❌  |    ❌     |       ❌       |    ✔️     |
+| traits                     |      ❌       |  ❌  |  ❌  |    ✔️     |       ❌       |    ❌     |
 
 ## Installation
 

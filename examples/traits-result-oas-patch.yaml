@@ -10,6 +10,13 @@ paths:
       responses:
         200:
           description: OK
+      parameters:
+      - &id001
+        name: top
+        in: query
+      - &id002
+        name: skip
+        in: query
   /items/{id}/subitems:
     get:
       x-oai-traits:
@@ -18,6 +25,8 @@ paths:
       - name: id
         in: path
         required: true
+      - *id001
+      - *id002
       responses:
         200:
           description: OK
