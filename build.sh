@@ -1,8 +1,25 @@
-overlays=$(find examples -name '*overlay.*')
+#!/usr/bin/env bash
+
+if [ -z "$1" ]; then
+  overlays=$(find examples -name '*overlay.*')
+else
+  if [ ! -f "$1" ]; then
+    echo "Overlay file not found: $1"
+    echo
+    echo "Usage: $0 [<path-to-overlay>]"
+    exit 1
+  fi
+  overlays="$1"
+fi
+
 for overlay in $overlays; do
   extension="${overlay##*.}"
   filestem="${overlay%-*}"
   input="${filestem}-input.${extension}"
+  if [ ! -f "$input" ]; then
+    echo "Input file not found: $input"
+    exit 1
+  fi
 
   echo "***************************************************************"
   echo "Applying overlay: $overlay"
