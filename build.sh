@@ -34,15 +34,7 @@ for overlay in $overlays; do
   echo "------------"
 
   echo "--- clio ---"
-  if [ "$extension" = "yaml" ]; then
-    input_clio="${filestem}-input-clio.json"
-    yq -o json "$input" > "$input_clio"
-    clio apply "$input_clio" --overlay "$overlay" --output "${filestem}-result-clio.${extension}"
-    yq -i -Poy "${filestem}-result-clio.${extension}"
-    rm "$input_clio"
-  else
-    clio apply "$input" --overlay "$overlay" --output "${filestem}-result-clio.${extension}"
-  fi
+  clio apply "$input" --overlay "$overlay" --output "${filestem}-result-clio.${extension}"
   echo "------------"
 
   echo "--- oas-patch ---"

@@ -32,7 +32,6 @@ Apply example overlays to example inputs with
 - [Install Apigee Go Gen](https://apigee.github.io/apigee-go-gen/installation/) globally
 - [Install BinkyLabs OpenAPI Overlays CLI](https://github.com/BinkyLabs/openapi-overlays-dotnet/tree/main/src/tool) globally
 - [Install speakeasy](https://www.speakeasy.com/docs/speakeasy-reference/cli/getting-started#install) globally
-- [Install yq](https://github.com/mikefarah/yq/#install) globally (needed for BinkyLabs)
 - `npm install`
 
 ## Playing Around
