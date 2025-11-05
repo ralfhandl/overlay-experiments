@@ -7,6 +7,10 @@ paths:
     get:
       description: search for foo resources
       parameters:
+        - name: q
+          in: query
+          type: string
+          required: true
         - name: pageSize
           in: query
           type: number

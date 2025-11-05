@@ -20,6 +20,9 @@ paths:
       x-oai-traits:
         - paged
       parameters:
+        - name: id
+          in: path
+          required: true
         - name: top
           in: query
         - name: skip
