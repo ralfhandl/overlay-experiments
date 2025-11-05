@@ -16,6 +16,7 @@ Apply example overlays to example inputs with
 | array-remove               |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 | array-update               |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 | array-update-w-obj         |      ✔️       |  ❌  |  ✔️  |    ✔️     |       ❌       |    ❌     |
+| array-update-w-primitive   |      ✔️       |  ❌  |  ✔️  |    ❌     |       ❌       |    ❌     |
 | object-remove-property     |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 | object-update              |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 | object-update-w-array-prop |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
