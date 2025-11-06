@@ -1,0 +1,11 @@
+openapi: 3.1.0
+info:
+  version: 1.0.0
+  title: Imaginary town
+  license:
+    name: MIT
+    url: 'https://opensource.org/licenses/MIT'
+servers:
+  - url: 'https://example.com'
+    description: Example server
+paths: {}
