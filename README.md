@@ -25,7 +25,7 @@ Apply example overlays to example inputs with
 | primitive-value-update (1.1) |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ❌       |    ✔️     |
 | traits                       |      ❌       |  ❌  |  ✔️  |    ✔️     |       ❌       |    ❌     |
 | update-non-existing-target   |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
-| Overlay Compliance Sets      |
+| **Compliance Sets**          |
 | array-remove                 |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 | description-and-summary      |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 | remove-example               |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
