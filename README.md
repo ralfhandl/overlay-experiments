@@ -11,27 +11,28 @@ Apply example overlays to example inputs with
 
 ## Results
 
-| Example \ Tool             | apigee-go-gen | bump | clio | oas-patch | openapi-format | speakeasy |
-| -------------------------- | :-----------: | :--: | :--: | :-------: | :------------: | :-------: |
-| array-remove               |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
-| array-update               |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
-| array-update-w-obj         |      ✔️       |  ❌  |  ✔️  |    ✔️     |       ❌       |    ❌     |
-| array-update-w-primitive   |      ✔️       |  ❌  |  ✔️  |    ❌     |       ❌       |    ❌     |
-| object-remove-property     |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
-| object-update              |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
-| object-update-w-array-prop |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
-| object-update-w-condition  |      ✔️       |  ✔️  |  ✔️  |    ❌     |       ✔️       |    ✔️     |
-| overlay-issue-38           |      ❌       |  ❌  |  ✔️  |    ✔️     |       ❌       |    ❌     |
-| primitive-array-update     |      ✔️       |  ✔️  |  ✔️  |    ❌     |       ✔️       |    ✔️     |
-| primitive-update           |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ❌       |    ✔️     |
-| traits                     |      ❌       |  ❌  |  ✔️  |    ✔️     |       ❌       |    ❌     |
-| Overlay Compliance Sets    |
-| array-remove               |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
-| description-and-summary    |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
-| remove-example             |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
-| remove-matching-responses  |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
-| remove-property            |      ❌       |  ❌  |  ✔️  |    ✔️     |       ✔️       |    ❌     |
-| remove-server              |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| Example \ Tool              | apigee-go-gen | bump | clio | oas-patch | openapi-format | speakeasy |
+| --------------------------- | :-----------: | :--: | :--: | :-------: | :------------: | :-------: |
+| array-remove                |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| array-update                |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| array-update-w-obj          |      ✔️       |  ❌  |  ✔️  |    ✔️     |       ❌       |    ❌     |
+| array-update-w-primitive    |      ✔️       |  ❌  |  ✔️  |    ❌     |       ❌       |    ❌     |
+| object-remove-property      |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| object-update               |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| object-update-w-array-prop  |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| object-update-w-condition   |      ✔️       |  ✔️  |  ✔️  |    ❌     |       ✔️       |    ✔️     |
+| overlay-issue-38            |      ❌       |  ❌  |  ✔️  |    ✔️     |       ❌       |    ❌     |
+| primitive-array-update      |      ✔️       |  ✔️  |  ✔️  |    ❌     |       ✔️       |    ✔️     |
+| primitive-update            |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ❌       |    ✔️     |
+| traits                      |      ❌       |  ❌  |  ✔️  |    ✔️     |       ❌       |    ❌     |
+| Overlay Compliance Sets     |
+| array-remove                |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| description-and-summary     |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| remove-example              |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| remove-matching-responses   |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| remove-property             |      ❌       |  ❌  |  ✔️  |    ✔️     |       ✔️       |    ❌     |
+| remove-server               |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| replace-servers-for-sandbox |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 
 ## Installation
 
