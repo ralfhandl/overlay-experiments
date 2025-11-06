@@ -13,9 +13,9 @@ Apply example overlays to example inputs with
 
 | Example \ Tool              | apigee-go-gen | bump | clio | oas-patch | openapi-format | speakeasy |
 | --------------------------- | :-----------: | :--: | :--: | :-------: | :------------: | :-------: |
-| array-remove                |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
-| array-update                |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
-| array-update-w-obj          |      ✔️       |  ❌  |  ✔️  |    ✔️     |       ❌       |    ❌     |
+| array-remove-object         |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| array-remove-primitive      |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| array-update-w-object       |      ✔️       |  ❌  |  ✔️  |    ✔️     |       ❌       |    ❌     |
 | array-update-w-primitive    |      ✔️       |  ❌  |  ✔️  |    ❌     |       ❌       |    ❌     |
 | object-remove-property      |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 | object-update               |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |

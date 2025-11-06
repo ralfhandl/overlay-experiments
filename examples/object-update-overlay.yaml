@@ -11,3 +11,4 @@ actions:
   - target: $.paths["/items"].get
     update:
       description: This was added
+      tags: ["added"]

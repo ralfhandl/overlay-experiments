@@ -11,5 +11,6 @@ paths:
       tags:
         - good
         - bad
+        - added
       description: This was added
 

@@ -1,0 +1,15 @@
+openapi: 3.1.0
+info:
+  title: API with parameter to be removed
+  version: 1.0.0
+paths:
+  /items:
+    get:
+      parameters:
+        - name: filter
+          in: query
+        - name: dummy
+          in: query
+      responses:
+        200:
+          description: OK
