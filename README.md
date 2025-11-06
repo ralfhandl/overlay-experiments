@@ -33,6 +33,7 @@ Apply example overlays to example inputs with
 | remove-property             |      ❌       |  ❌  |  ✔️  |    ✔️     |       ✔️       |    ❌     |
 | remove-server               |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 | replace-servers-for-sandbox |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| update-root                 |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 
 ## Installation
 
