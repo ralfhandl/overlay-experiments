@@ -1,0 +1,15 @@
+openapi: 3.1.0
+info:
+  version: 1.0.0
+  title: Imaginary town
+components:
+  schemas:
+    Building:
+      type: object
+      properties:
+        building:
+          type: string
+          example: house
+        location_id:
+          type: integer
+          example: 44

@@ -25,6 +25,10 @@ Apply example overlays to example inputs with
 | primitive-array-update     |      ✔️       |  ✔️  |  ✔️  |    ❌     |       ✔️       |    ✔️     |
 | primitive-update           |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ❌       |    ✔️     |
 | traits                     |      ❌       |  ❌  |  ✔️  |    ✔️     |       ❌       |    ❌     |
+| Overlay Compliance Sets    |
+| array-remove               |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| description-and-summary    |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| remove-example             |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 
 ## Installation
 
