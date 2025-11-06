@@ -30,6 +30,7 @@ Apply example overlays to example inputs with
 | description-and-summary    |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 | remove-example             |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 | remove-matching-responses  |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| remove-property            |      ❌       |  ❌  |  ✔️  |    ✔️     |       ✔️       |    ❌     |
 
 ## Installation
 
