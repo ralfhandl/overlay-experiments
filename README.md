@@ -29,6 +29,7 @@ Apply example overlays to example inputs with
 | array-remove               |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 | description-and-summary    |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 | remove-example             |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
+| remove-matching-responses  |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 
 ## Installation
 
