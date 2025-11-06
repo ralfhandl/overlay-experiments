@@ -31,6 +31,7 @@ Apply example overlays to example inputs with
 | remove-example             |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 | remove-matching-responses  |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 | remove-property            |      ❌       |  ❌  |  ✔️  |    ✔️     |       ✔️       |    ❌     |
+| remove-server              |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 
 ## Installation
 
