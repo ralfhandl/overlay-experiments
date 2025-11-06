@@ -2,14 +2,17 @@
 
 if [ -z "$1" ]; then
   overlays=$(find examples -name '*overlay.*')
-else
-  if [ ! -f "$1" ]; then
-    echo "Overlay file not found: $1"
-    echo
-    echo "Usage: $0 [<path-to-overlay>]"
-    exit 1
-  fi
+elif [ -f "$1" ]; then
   overlays="$1"
+elif [ -f "$1overlay.yaml" ]; then
+  overlays="$1overlay.yaml"
+elif [ -f "$1overlay.json" ]; then
+  overlays="$1overlay.json"
+else
+  echo "Overlay file not found: $1"
+  echo
+  echo "Usage: $0 [<path-to-overlay>]"
+  exit 1
 fi
 
 for overlay in $overlays; do
