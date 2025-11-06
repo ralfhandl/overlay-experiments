@@ -1,0 +1,6 @@
+openapi: 3.1.0
+info:
+  title: Add operation to path that does not exist - should silently do nothing
+  version: 1.0.0
+paths: {}
+

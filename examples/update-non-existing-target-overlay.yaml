@@ -1,0 +1,9 @@
+overlay: 1.0.0
+info:
+  title: Add operation to path that does not exist - should silently do nothing
+  version: 1.0.0
+actions:
+  - target: $.paths['/health']
+    update:
+      get:
+        description: Operation on added path

@@ -25,6 +25,7 @@ Apply example overlays to example inputs with
 | primitive-array-update     |      ✔️       |  ✔️  |  ✔️  |    ❌     |       ✔️       |    ✔️     |
 | primitive-update           |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ❌       |    ✔️     |
 | traits                     |      ❌       |  ❌  |  ✔️  |    ✔️     |       ❌       |    ❌     |
+| update-non-existing-target |      ✔️       |  ✔️  |  ✔️  |    ✔️     |       ✔️       |    ✔️     |
 
 ## Installation
 
